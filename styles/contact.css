@@ -1,0 +1,26 @@
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.contact__container__header {
+  font-size: 46pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #02918c;
+}
+.contact__container__text {
+  font-size: 16pt;
+  font-weight: normal;
+  color: #7e8287;
+}
+.contact__container__text::before {
+  content: "~~~~~~~~ :: ~~~~~~~~";
+  display: block;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=contact.css.map */

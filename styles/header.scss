@@ -1,0 +1,29 @@
+.header{
+  background: #02918c;
+  &__container{
+    padding: 18px 50px 23px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+
+    &__logo{
+      width: 50%;
+      font-weight: 800;
+      font-size: 26px;
+      flex-grow: 1;
+      &__green{
+        color: #cfc91d;
+      }
+    }
+    &__menu{
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      font-weight: 800;
+      font-size: 12px;
+      flex-grow: 2;
+      &__link{}
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.services {
+  background-color: #f0f0e8;
+}
+.services__container {
+  display: flex;
+}
+.services__container__text {
+  width: 50%;
+  margin: 75px 90px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.services__container__text__header {
+  color: #02918c;
+  font-size: 46pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.services__container__text__about {
+  font-size: 16pt;
+  font-weight: normal;
+  color: #86898d;
+  line-height: 1.5;
+}
+.services__container__text__about::before {
+  content: "~~~~~~~~ :: ~~~~~~~~";
+  display: block;
+  margin-bottom: 30px;
+}
+.services__container__text__titles {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #86898d;
+}
+.services__container__text__titles__title {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services__container__text__titles__title__header {
+  font-size: 16pt;
+  font-weight: bold;
+  margin: 20px 0 20px;
+}
+.services__container__text__titles__title__text {
+  font-size: 11pt;
+  font-weight: normal;
+}
+.services__container__image {
+  background: url("../img/services-img.png") no-repeat;
+  height: 100vh;
+  width: 50%;
+  background-size: cover;
+  position: relative;
+}
+.services__container__image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(240, 240, 232, 0.6);
+}
+
+/*# sourceMappingURL=services.css.map */

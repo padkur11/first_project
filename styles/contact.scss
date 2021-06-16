@@ -1,0 +1,28 @@
+.contact {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+    &__header {
+      font-size: 46pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #02918c;
+    }
+
+    &__text {
+      font-size: 16pt;
+      font-weight: normal;
+      color: #7e8287;
+
+      &::before {
+        content: '~~~~~~~~ :: ~~~~~~~~';
+        display: block;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
